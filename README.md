@@ -1,22 +1,80 @@
-# Pill Pal
+# 💊 PillPal – Smart Medicine Tracker
 
-PillPall is a cross-platform mobile application developed using Flutter for tracking medicine. 
+**PillPal** is a cross-platform mobile application built with **Flutter** that helps users manage their medications efficiently.
+It allows users to track their pills, set smart reminders, and maintain a complete health journal — ensuring you never miss a dose again.
 
-## Features
+🎥 **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=y4-NHnCFdTU)
 
-Users can input data about their pills: name, description, dose, concentration, shape, color, how many they have, and number to alert at for a refill.
-Users can add one-time, repeated, and daily pill reminders. 
-Users keep a detailed health journal of their taken and missed pills.
+---
 
-Demo: https://www.youtube.com/watch?v=y4-NHnCFdTU
+## 🌟 Overview
 
-## Getting Started with Flutter
+Managing medication can be challenging, especially with multiple prescriptions or complex schedules.
+**PillPal** simplifies this by combining **reminder scheduling**, **pill tracking**, and **refill alerts** into one intuitive app.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 💊 Medicine Management
+
+* Add details such as:
+
+  * Name, description, dose, concentration
+  * Shape, color, and quantity
+  * Refill alert threshold
+* Edit or delete medicines anytime.
+
+### ⏰ Smart Reminders
+
+* Schedule **one-time**, **daily**, or **repeating** pill reminders.
+* Receive **local notifications** when it's time to take a dose.
+* Easily mark pills as **taken** or **missed**.
+
+### 📔 Health Journal
+
+* Keep a detailed history of taken and missed medications.
+* Monitor adherence trends and stay consistent with treatment.
+
+---
+
+## 🧠 Tech Stack
+
+* **Framework:** Flutter
+* **Language:** Dart
+* **Local Notifications:** `flutter_local_notifications`
+* **State Management:** Provider / Riverpod (depending on implementation)
+* **Local Storage:** SQLite or Hive
+
+---
+
+## 🧩 Installation & Setup
+
+### Prerequisites
+
+* Flutter SDK (3.0 or later)
+* Android Studio or VS Code with Flutter extension
+* A physical or virtual mobile device
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/pillpal.git
+cd pillpal
+```
+
+### Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the App
+
+```bash
+flutter run
+```
+
+---
+
+> “PillPal – Because staying on top of your health should be simple.”
